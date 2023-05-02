@@ -1,0 +1,11 @@
+package com.eventos.festas.controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class ConvidadosController {
+	
+	public String listar() {
+		return "ListaConvidados";
+	}
+}
